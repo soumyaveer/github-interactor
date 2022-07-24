@@ -16,7 +16,15 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Coming soon... 
+Run a rake task and pass a github username
+
+```
+    rake github_user soumyaveer
+```
+
+- For Valid username it returns the users repos and followers.
+- For invalid username it returns an error message -  `Failed with error: Not Found`
+
 
 ## Development
 
