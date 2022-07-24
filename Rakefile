@@ -10,3 +10,6 @@ require "rubocop/rake_task"
 RuboCop::RakeTask.new
 
 task default: %i[spec rubocop]
+
+load 'lib/rake_tasks.rb'
+
